@@ -1,0 +1,8 @@
+Elements, Runs, Algorithm, Variant, Elapsed time(ms), Message
+1000000, 1, quick sort, random, 226.000, "1000000 elements; 1 runs - Algorithm: quick sort, Variant: random, Elapsed time: 226.000000 ms"
+1000000, 1, quick sort, reversed, 159.000, "1000000 elements; 1 runs - Algorithm: quick sort, Variant: reversed, Elapsed time: 159.000000 ms"
+1000000, 1, quick sort, partially sorted 10%, 79.000, "1000000 elements; 1 runs - Algorithm: quick sort, Variant: partially sorted 10%, Elapsed time: 79.000000 ms"
+1000000, 1, quick sort, partially sorted 30%, 77.000, "1000000 elements; 1 runs - Algorithm: quick sort, Variant: partially sorted 30%, Elapsed time: 77.000000 ms"
+1000000, 1, quick sort, partially sorted 50%, 77.000, "1000000 elements; 1 runs - Algorithm: quick sort, Variant: partially sorted 50%, Elapsed time: 77.000000 ms"
+1000000, 1, quick sort, partially sorted 70%, 77.000, "1000000 elements; 1 runs - Algorithm: quick sort, Variant: partially sorted 70%, Elapsed time: 77.000000 ms"
+1000000, 1, quick sort, partially sorted 90%, 77.000, "1000000 elements; 1 runs - Algorithm: quick sort, Variant: partially sorted 90%, Elapsed time: 77.000000 ms"
