@@ -346,12 +346,12 @@ int main() {
     resultsFile = fopen("results1.csv", "w");
     printHeader();
 
-    //analyzeAlgo(10, 1000000);
-    //analyzeAlgo(50, 1000000);
-    //analyzeAlgo(100, 1000000);
-    //analyzeAlgo(1000, 100);
-    //analyzeAlgo(10000, 10);
-    // analyzeAlgo(100000, 1);
+    analyzeAlgo(10, 1000000);
+    analyzeAlgo(50, 1000000);
+    analyzeAlgo(100, 1000000);
+    analyzeAlgo(1000, 100);
+    analyzeAlgo(10000, 10);
+    analyzeAlgo(100000, 1);
     analyzeAlgo(1000000, 1);
 
     if (resultsFile) fclose(resultsFile);

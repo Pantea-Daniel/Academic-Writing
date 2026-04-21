@@ -1,0 +1,7 @@
+Algorithm,Time (ms),Time (Minutes),Check
+Bubble Sort,"2,893,099.00 ",48.22 min, Very Slow
+Selection Sort,"950,758.00 ",15.85 min, Slow
+Insertion Sort,"526,543.00 ",8.78 min, Slow
+Merge Sort,293.00 ,0.0049 min, Fast (0.29s)
+Quick Sort,207.00 ,0.0035 min, Fast (0.21s)
+Radix Sort,91.00 ,0.0015 min, Fastest (0.09s)
