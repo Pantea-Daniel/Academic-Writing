@@ -1,0 +1,27 @@
+Review of “A Runtime Evaluation of Classical Sorting Techniques”
+
+The paper is in the scope of the assignment. It studies sorting algorithms, runtime complexity, and empirical benchmarking through experimental comparisons. The topic is appropriate for a scientific paper in computer science and matches the requirements of the assignment.
+
+This paper presents a runtime evaluation of five classical sorting algorithms: Quick Sort, Merge Sort, Insertion Sort, Bubble Sort, and Selection Sort. The algorithms are tested under three types of input arrangement — random, reverse-ordered, and pre-sorted — across multiple input sizes. The paper compares the measured runtimes with theoretical complexity expectations in order to evaluate how closely practical behaviour matches theoretical predictions.
+
+The presentation of the paper is generally clear and easy to follow. The structure is simple and organized logically, with sections for introduction, related work, algorithm descriptions, methodology, experimental results, discussion, and conclusion. The language is understandable and appropriate for a university assignment, and the paper explains the main ideas without becoming overly technical.
+
+The main results are reasonably important for the level of this assignment. The experiments successfully show the practical difference between O(n²) algorithms and O(n log n) algorithms as input sizes increase. The comparison between random, reverse-ordered, and pre-sorted input is also meaningful because it demonstrates how input structure affects runtime performance, especially for Insertion Sort and Bubble Sort.
+
+The results are reasonably non-trivial to achieve. The author implemented multiple sorting algorithms, designed experiments for different input configurations, measured execution times, and organized the results into multiple benchmark tables. The work also shows awareness of both theoretical and experimental analysis.
+
+The results seem to be original in the context of this assignment. Although the sorting algorithms themselves are classical, the paper combines implementation, timing experiments, and comparison of multiple input patterns into a coherent benchmark study. The paper also correctly relates the experimental results to standard algorithm theory.
+
+The paper contains enough information to understand the experiments and partially verify the correctness of the work. The complexity discussions are mostly correct, the benchmark tables are clear, and the conclusions are generally consistent with the measured results. The discussion section also explains why some algorithms behave differently under different input arrangements.
+
+From a technical perspective, the author seems to understand the subject sufficiently well. I have partially checked the technical explanations and did not notice major conceptual mistakes. The observations regarding Quick Sort, Merge Sort, and the quadratic algorithms are consistent with standard theoretical expectations. The comparison between pre-sorted and reverse-ordered input is also interpreted correctly.
+
+However, there are several aspects that could be improved. The methodology section is relatively short and lacks important experimental details. For example, the paper does not specify the hardware configuration, operating system, Python version, timing functions, or whether measurements were averaged over multiple runs. These details are important for reproducibility and scientific rigor. Some tables also contain unusually large differences, such as the Merge Sort result in Table 3 for n = 500, which appears inconsistent with neighbouring measurements and may indicate measurement noise or a recording issue.
+
+The presentation quality is acceptable overall, but there are areas where the paper could be strengthened. The work relies heavily on tables and does not include graphical visualizations of the results. Graphs would make the runtime growth behaviour easier to interpret visually. In addition, some sections remain descriptive rather than analytical. The paper explains what happened in the experiments, but the discussion could go deeper into implementation-level factors such as recursion overhead, cache locality, or memory usage.
+
+For improvement, I would suggest adding benchmark graphs for each input type and including more experimental details in the methodology section. Repeating the experiments multiple times and reporting statistical averages or variance would also strengthen the reliability of the measurements. The paper could additionally discuss why Merge Sort remains stable across all input types while Quick Sort degrades on reverse-ordered data. Finally, some tables could be simplified or combined to improve readability.
+
+Overall, this is a solid and understandable university project. The author demonstrates a good understanding of classical sorting algorithms, asymptotic complexity, and experimental benchmarking. The experiments are meaningful, and the conclusions generally match both theoretical expectations and practical observations. While the paper remains relatively simple and could benefit from deeper technical analysis and stronger visualization, it is technically sound and appropriate for the assignment requirements.
+
+Final recommendation: Weak Accept.
