@@ -1,0 +1,133 @@
+﻿.background {
+  position: absolute;
+  width: 1200px;
+  height: 1000px;
+  background: #0B1020;
+  border-radius: 20px;
+}
+
+.left-bottom {
+  box-sizing: border-box;
+  position: absolute;
+  width: 600px;
+  height: 500px;
+  background: #16161C;
+  border: 1px solid #23358E;
+  border-radius: 20px;
+}
+
+.right-bottom {
+  box-sizing: border-box;
+  position: absolute;
+  width: 600px;
+  height: 500px;
+  background: rgba(44, 28, 69, 0.9);
+  border: 1px solid #42156F;
+  border-radius: 20px;
+}
+
+.top-right {
+  position: absolute;
+  width: 600px;
+  height: 504px;
+}
+
+.top-right-panel {
+  box-sizing: border-box;
+  position: absolute;
+  width: 600px;
+  height: 500px;
+  background: #15230E;
+  border: 1px solid #055251;
+  border-radius: 20px;
+}
+
+.separator-line {
+  position: absolute;
+  width: 600px;
+  height: 1px;
+  background: #055251;
+}
+
+.connections {
+  position: absolute;
+  width: 186px;
+  height: 59px;
+}
+
+.title {
+  font-family: 'Inria Serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #F5F7FA;
+}
+
+.shield {
+  position: absolute;
+  width: 220px;
+  height: 176px;
+  background: url("bg_removal [Background removed].png") center/contain no-repeat;
+}
+
+.artificial-intelligence {
+  position: absolute;
+  width: 100px;
+  height: 63px;
+  font-family: 'Inria Serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #EAF2F8;
+}
+
+.connections-boxes-icons {
+  position: absolute;
+  width: 531px;
+  height: 355px;
+}
+
+.down-arrow,
+.up-arrow {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.down-arrow {
+  background-image: url("image.png");
+}
+
+.up-arrow {
+  background-image: url("bg_removal [Background removed]");
+}
+
+.math-box,
+.software-box,
+.ai-box,
+.physics-box {
+  box-sizing: border-box;
+  position: absolute;
+  width: 140px;
+  height: 35px;
+  background: #15230E;
+  border: 1px solid #055251;
+  border-radius: 10px;
+}
+
+.physics {
+  position: absolute;
+  width: 67px;
+  height: 17px;
+}
